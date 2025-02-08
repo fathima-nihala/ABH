@@ -25903,3 +25903,13 @@ body.sticky .header-common.clone {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+.truncte {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;      
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width: 100%;
+}
